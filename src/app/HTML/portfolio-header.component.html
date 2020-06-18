@@ -11,39 +11,48 @@
     </div>
   </div>
   <div class="name-div">
-    <h1 style="color: black;">
-      {{ name }}
+    <h1 style="color: #24292e;">{{ name }}</h1>
+    <h1
+      style="
+        margin-top: -10%;
+        font-weight: lighter;
+        font-size: x-large;
+        color: #666666;
+      "
+    >
       {{ userName }}
     </h1>
   </div>
   <div>
-    <button>Follow</button>
+    <button class="button">
+      Follow
+    </button>
   </div>
-  <p>{{ bio }}</p>
-  <div class="container">
-    <div class="row">
+  <p style="font-size: 14px;">{{ bio }}</p>
+  <ul class="container">
+    <li class="row">
       <img
         class="pro-icon"
         src="https://image.flaticon.com/icons/svg/2891/2891415.svg"
         alt="building"
       />
       <p>{{ business }}</p>
-    </div>
-    <div class="row">
+    </li>
+    <li class="row">
       <img
         class="pro-icon"
         src="https://image.flaticon.com/icons/svg/2948/2948111.svg"
         alt="pin"
       />
       <p>{{ location }}</p>
-    </div>
-    <div class="row">
+    </li>
+    <li class="row">
       <img
         class="pro-icon"
         src="https://image.flaticon.com/icons/svg/561/561127.svg"
         alt="mail"
       />
       <p>{{ email }}</p>
-    </div>
-  </div>
+    </li>
+  </ul>
 </div>
