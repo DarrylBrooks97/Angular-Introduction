@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png" alt="me" style="width:300px" >
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png" alt="me" style="width:100px" >
 </div>
 
 <div align="center">
@@ -16,6 +16,6 @@
 # Components Needed
 
 - [ ] Navbar
-- [ ] About Me Section
+- [x] About Me Section
 - [ ] Overview Navbar
 - [ ] Repo Content
